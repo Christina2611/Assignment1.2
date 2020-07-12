@@ -1,0 +1,132 @@
+body{
+    padding:10px;
+    margin:5px;
+    text-align: center;
+
+
+}
+header{
+    color:black;
+    padding:2%;
+    background-image: url(../IMAGES/navtab.png);
+    font-family: Cooper Black;
+
+}
+nav a{
+    display: inline-block;
+    margin: 5px;
+    padding: 3px;
+    border-radius:2px;
+    text-decoration: none;
+    font-size:110%;
+    width:18%;
+    border:1px outset transparent;
+    background-color:#ffffff5c;
+    color:#ae85b5;
+    
+}
+h1{
+    color:#5b0969;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+h2{
+    color:#de8c8c;
+    text-transform: uppercase;
+}
+
+section{
+    display: inline-block;
+    float: left;
+}
+#head{
+	font-size:50px;
+	font-family:Lucida Calligraphy;
+
+}
+<---Login--->
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+  text-align: center;
+  background:linear-gradient(white , #e91e85);
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width:40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align:center;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  text-align:center;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin-left:  24px 0 12px 0;
+  margin-bottom:  24px 0 12px 0;
+  margin-right:   24px 0 12px 0;
+
+}
+
+/* Avatar image */
+img.avatar {
+  width: 15%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+
+}
+
+/* The "SignUP" text */
+span.psw {
+  float: right;
+  padding-top: 45px;
+  width: 30%
+}
+
+.center{
+	text-align:center;
+	background:linear-gradient(#DB7093,white);
+}
+#login{
+	font-family:Cooper black;
+	font-size:150%;
+}
+ .active{
+ 	background-color:#e27fc5;
+ 	color: #610d70;
+
+ }
+ nav a:hover{
+ 	background-color:#e27fc5;
+ 	color: #610d70;
+ 	transform: rotate(30deg);
+ }
